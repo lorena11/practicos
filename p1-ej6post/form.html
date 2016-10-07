@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>P1 Ej6 - Cargar Arreglo-ordenar</title>
+</head>
+<body>
+<form id="formulario" action="CargarArreglo.php" method="post">
+    <legend>Formulario</legend>
+    <p>Dado una arreglo cargarlo de Datos : se mostrara ordenado decrecientemente</p>
+    <p>Introduccion de datos individuales en una sola variable .</p>
+        <label>Numero total de datos a introducir </label>
+            <input type="text" name="total" value="" title="Total de datos a introducir" />
+        <label>Dato a introducir en la variable de tipo array : </label>
+              <input type="text" name="dato" />
+    </br>
+    <p><input type="submit" value="Envio proceso" />
+        <input type="reset" value="Borrar datos" />
+    </p>
+
+</form>
+<p id="data"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>

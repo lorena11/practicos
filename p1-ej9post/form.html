@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>P1 Ej9 - Ecuacion Cuadratica</title>
+</head>
+<body>
+<form id="formulario" action="ecuacionCuadratica.php" method="post">
+    <legend>Formulario</legend>
+        <p>Dado una ecuacion cuadratica<span style="..."> b.x<sup>2</sup> + sqrt( 4.a.c -2.b)</span>, escriba los valores
+        de los coeficientes y resolvere la ecuacion:</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><strong>a:</strong></td>
+                <td><input type="number" name="a" step="any"></td>
+            </tr>
+            <tr>
+                <td><strong>b:</strong></td>
+                <td><input type="number" name="b" step="any"></td>
+            </tr>
+            <tr>
+                <td><strong>c:</strong></td>
+                <td><input type="number" name="c" step="any"></td>
+            </tr>
+        </tbody>
+    </table>
+    <p><input type="submit" value="tipo Raices" />
+        <input type="submit" value="Mostrar Valor" />
+        <input type="reset" value="Borrar " />
+    </p>
+
+</form>
+<p id="data"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>
